@@ -7,7 +7,9 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
-<body class="card">
+<center>
+  <body class="card">
+    <div class="alert alert-info display-1 text-center">Usuario 1</div>
     <div class="card" style="width: 18rem;">
         <img src="{% static 'imagenes/cfulanito.png' %}" class="card-img-top" alt="...">
         <div class="card-body">
@@ -18,14 +20,18 @@
           <h6 class="card-subtitle mb-2 text-muted">Direccion: {{direccion}}</h6>
           <h6 class="card-subtitle mb-2 text-muted">Ciudad: {{ciudad}}</h6>
           <p class="card-text">
-            Cosme Fulanito: Buenas noches señores. Molesto con una copilla por favorrr.
-            Moe: ¡Lárgate de aquí Homero!
-            Cosme Fulanito: ¿Homero? ¡Ay! ¿Quién es Homero? ¡Mi nombres es Cossssme Fulanito!
-            (¡PUNCH! ¡PUNCH! ¡PUNCH! ¡CRASH! ¡CRASH!)
-            Cosme Fulanito: ¡¡Ayyy!!
-            Homero: ¡Oh! ¡Dios mio! ¡Este hombre es mi doble exacto! ¡¡Mbahh!! ¡Oh, ese perro tiene la cola peluda!</p>
+            <p class="h6">Cosme Fulanito: Buenas noches señores. Molesto con una copilla por favorrr.</p>
+            <p class="h6">Moe: ¡Lárgate de aquí Homero!</p>
+            <p class="h6">Cosme Fulanito: ¿Homero? ¡Ay! ¿Quién es Homero? ¡Mi nombres es Cossssme Fulanito!
+              (¡PUNCH! ¡PUNCH! ¡PUNCH! ¡CRASH! ¡CRASH!)</p>
+            <p class="h6"> Cosme Fulanito: ¡¡Ayyy!!</p>
+            <p class="h6">Homero: ¡Oh! ¡Dios mio! ¡Este hombre es mi doble exacto! ¡¡Mbahh!! ¡Oh, ese perro tiene la cola peluda!</p>
+            <a href="{{url0}}" class="btn btn-primary">Inicio</a>
+            <a href="{{url2}}" class="btn btn-primary">Usuario 2</a>
+            <a href="{{url3}}" class="btn btn-primary">Usuario 3</a>     
         </div>
       </div>
-    
+</center>
+
 </body>
 </html>

@@ -3,6 +3,8 @@ from django.shortcuts import render
 # Create your views here.
 def index(request):
     return render(request,'templatesProductos/index.html')
+def index2(request):
+    return render(request,'templatesApp2/index2.html')
 
 def electronica(request):
     data={
